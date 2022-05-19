@@ -1,0 +1,10 @@
+task3/node_modules
+task3/report
+task3/output
+task2/node_modules
+task2/output
+task2/allure-report
+.DS_Store
+task2/package-lock.json
+.idea/
+task2/.idea/

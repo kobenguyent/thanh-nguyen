@@ -1,0 +1,6 @@
+node_modules
+output
+allure-report
+.DS_Store
+package-lock.json
+.idea/

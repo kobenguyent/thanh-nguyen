@@ -1,0 +1,35 @@
+{
+  "name": "codeceptjs-rest-demo",
+  "version": "1.0.0",
+  "description": "CodeceptJS demo project with REST helper",
+  "main": "api_test.js",
+  "scripts": {
+    "def": "codeceptjs def",
+    "lint": "eslint . --fix",
+    "test": "codeceptjs run",
+    "api-load-test": "k6 run load-tests/scenario-1.js",
+    "generate-report": "allure generate output"
+  },
+  "keywords": [
+    "codeceptjs",
+    "rest"
+  ],
+  "author": "peterngtr",
+  "license": "ISC",
+  "devDependencies": {
+    "codeceptjs": "3.3.3",
+    "eslint": "^6.5.1",
+    "eslint-plugin-codeceptjs": "^1.1.0",
+    "faker": "^4.1.0",
+    "ts-node": "^8.10.2",
+    "typescript": "^3.9.7"
+  },
+  "dependencies": {
+    "@types/node": "^14.14.10",
+    "allure": "0.0.0",
+    "allure-commandline": "^2.13.0",
+    "codeceptjs-expectwrapper": "^1.0.1",
+    "expect": "^26.6.2",
+    "form-data": "^3.0.0"
+  }
+}
